@@ -9,6 +9,6 @@ As far as the servo activation, the attached horn was perfect for pressing the b
 
 In the code, in the init block, it selects port 1, then returns to a neutral. Because I really expect port 1 in the 'normal' case.
 
-I found that the horn, on the spline, was offset from '90 degrees' no matter how you splined it, so in the code, there is an offset value, the centers the horn when you select 90 degrees. Then through experimentation, I determined the swing required to properly activate the switches (26 degrees) and added one degree to ensure activation.
+I found that the horn, on the spline, was offset from '90 degrees' no matter how you splined it, so in the code, there is an offset value, that centers the horn when you select 90 degrees. Then through experimentation, I determined the swing required to properly activate the switches (26 degrees) and added one degree to ensure activation.
 
 And that was it.
